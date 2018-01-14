@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.travellerquizapp.MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/photo_love_travel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/love_travel"></ImageView>
+
+    <Button
+        android:id="@+id/start_quiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/start_quiz"
+        android:textSize="36sp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
