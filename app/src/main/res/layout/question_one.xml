@@ -9,18 +9,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="40dp">
+        android:padding="@dimen/layout_padding">
 
         <TextView
             android:id="@+id/question_one_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginBottom="@dimen/question_margin"
+            android:layout_marginTop="@dimen/question_margin"
             android:text="@string/question_one"
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="18sp" />
+            android:textSize="@dimen/question_textSize" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -28,14 +28,14 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/yes_radio_button"
+                android:id="@+id/q1_ans1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_ans1"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
-                android:id="@+id/no_radio_button"
+                android:id="@+id/q1_ans2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_ans2"
@@ -46,16 +46,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="@dimen/nextButton_marginTop"
             android:onClick="goToSecondQuestion"
             android:text="@string/next" />
 
         <ImageView
             android:id="@+id/photo_love_travel"
-            android:layout_width="300dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginBottom="0dp"
+            android:layout_width="@dimen/imageTravel_width"
+            android:layout_height="@dimen/imageTravel_height"
             android:scaleType="fitXY"
             android:src="@drawable/Travel">
 
@@ -67,7 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:indeterminate="false"
-            android:max="90"
+            android:max="@dimen/progressBar_max"
             android:progress="10" />
 
     </LinearLayout>
