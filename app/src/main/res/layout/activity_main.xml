@@ -46,6 +46,17 @@
         android:layout_marginTop="420dp"
         android:layout_height="70sp"
         android:text="@string/start_quiz"
+        android:onClick="startQuiz"
         android:textSize="36sp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_marginTop="500dp"
+        android:max="90"
+        android:progress="0"/>
 
 </RelativeLayout>
