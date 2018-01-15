@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="startButton_margin">50dp</dimen>
+    <dimen name="startButton_marginTop">420dp</dimen>
+    <dimen name="startButton_textSize">36sp</dimen>
+    <dimen name="startButton_height">70sp</dimen>
+    <dimen name="progressBar_max">90</dimen>
+    <dimen name="progressBar_margin">500dp</dimen>
 </resources>

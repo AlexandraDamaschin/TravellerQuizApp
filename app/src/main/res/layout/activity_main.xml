@@ -2,28 +2,28 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.travellerquizapp.MainActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.example.android.travellerquizapp.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <!--name as input -->
-    <EditText
-        android:id="@+id/customer_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/customerName"
-        android:inputType="textMultiLine" />
-    <!--age as input -->
-    <EditText
-        android:id="@+id/age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/age"
-        android:inputType="number" />
+        <!--name as input -->
+        <EditText
+            android:id="@+id/customer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/customerName"
+            android:inputType="textMultiLine" />
+        <!--age as input -->
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age"
+            android:inputType="number" />
     </LinearLayout>
 
 
@@ -41,22 +41,22 @@
     <Button
         android:id="@+id/start_quiz"
         android:layout_width="match_parent"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
-        android:layout_marginTop="420dp"
-        android:layout_height="70sp"
-        android:text="@string/start_quiz"
+        android:layout_height="@dimen/startButton_height"
+        android:layout_marginLeft="@dimen/startButton_margin"
+        android:layout_marginRight="@dimen/startButton_margin"
+        android:layout_marginTop="@dimen/startButton_marginTop"
         android:onClick="startQuiz"
-        android:textSize="36sp" />
+        android:text="@string/start_quiz"
+        android:textSize="@dimen/startButton_textSize" />
 
     <ProgressBar
         android:id="@+id/progress_bar"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/progressBar_margin"
         android:indeterminate="false"
-        android:layout_marginTop="500dp"
-        android:max="90"
-        android:progress="0"/>
+        android:max="@dimen/progressBar_max"
+        android:progress="1" />
 
 </RelativeLayout>
