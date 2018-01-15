@@ -12,7 +12,7 @@
         android:padding="@dimen/layout_padding">
 
         <TextView
-            android:id="@+id/question_one_content"
+            android:id="@+id/question_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/question_margin"
