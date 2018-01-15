@@ -1,4 +1,30 @@
 <resources>
     <string name="app_name">TravellerQuizApp</string>
     <string name="start_quiz">Start quiz</string>
+    <string name="customerName">Name</string>
+    <string name="age">age</string>
+    <string name="question_one">It`s important that I reach my full career potential</string>
+    <string name="q1_ans1">Career, no that much.</string>
+    <string name="q1_ans2">Of course! I totally love my work</string>
+    <string name="question_two">I have to be near my family/ friends/ pets</string>
+    <string name="q2_ans1">I`ll mii them, but we`ll Skype</string>
+    <string name="q2_ans2">I`d die without them </string>
+    <string name="question_three">Short trips are awesome</string>
+    <string name="q3_ans1">I need more time to fully experience a place</string>
+    <string name="q3_ans2">Totally!</string>
+    <string name="question_four">I want to have a home and nice things</string>
+    <string name="q4_ans1">I don`t need anything that can`t fit into a carry-on-bag.</string>
+    <string name="q4_ans2">Yes, please!</string>
+    <string name="question_five">A routine gives my life structure</string>
+    <string name="q5_ans1">I want variety</string>
+    <string name="q5_ans2">Yay, routine!</string>
+    <string name="question_six">I need a secure job and a stable income</string>
+    <string name="q6_ans1">Life is too short to play safe!</string>
+    <string name="q6_ans2">Yes and yes please!</string>
+    <string name="question_seven">I can see myself working abroad/ online</string>
+    <string name="q7_ans1">Totally no!</string>
+    <string name="q7_ans2">It`s gonna be tough, but doable!</string>
+    <string name="question_eight">Which one do you choose></string>
+    <string name="q8_ans1">Work abroad</string>
+    <string name="q8_ans2">Work online</string>
 </resources>
