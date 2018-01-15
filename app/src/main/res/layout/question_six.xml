@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,26 +9,64 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="@dimen/layout_padding">
 
         <TextView
-            android:id="@+id/question_one_content"
+            android:id="@+id/question_six"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:layout_marginTop="40dp"
-            android:text="@string/question_one"
+            android:layout_marginBottom="@dimen/question_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:text="@string/question_six"
             android:textAlignment="center"
-            android:textColor="#000"
-            android:textSize="18sp" />
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/question_textSize" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q6_ans1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_ans1"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q6_ans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6_ans2"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="40dp"
-            android:onClick="goToSecondQuestion"
-            android:text="@string/next_question" />
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/nextButton_marginTop"
+            android:onClick="goToSevenQuestion"
+            android:text="@string/next" />
+
+        <ImageView
+            android:id="@+id/photo_love_travel"
+            android:layout_width="@dimen/imageTravel_width"
+            android:layout_height="@dimen/imageTravel_height"
+            android:scaleType="fitXY"
+            android:src="@drawable/Travel">
+
+        </ImageView>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="@dimen/progressBar_max"
+            android:progress="60" />
 
     </LinearLayout>
 
