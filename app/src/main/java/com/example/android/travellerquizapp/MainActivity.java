@@ -173,7 +173,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to eight question
      */
     public void goToEightQuestion(View view) {
-        setContentView(R.layout.question_eight);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q7_ans1:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+            case R.id.q7_ans2:
+                if (checked) {
+                    setContentView(R.layout.question_eight);
+                    break;
+                }
+        }
     }
 
     /**
