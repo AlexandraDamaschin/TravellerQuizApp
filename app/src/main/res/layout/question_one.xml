@@ -32,14 +32,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_ans1"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:onClick="goToSecondQuestion"/>
 
             <RadioButton
                 android:id="@+id/q1_ans2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q1_ans2"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textAppearance="?android:textAppearanceMedium"
+                android:onClick="goToSecondQuestion"/>
         </RadioGroup>
 
         <Button
