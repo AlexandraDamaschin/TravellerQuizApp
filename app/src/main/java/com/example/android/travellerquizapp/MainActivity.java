@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     setContentView(R.layout.question_two);
                     break;
                 }
-            case R.id.q2_ans2:
+            case R.id.q1_ans2:
                 if (checked) {
                     setContentView(R.layout.question_seven);
                     break;
@@ -63,7 +63,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to third question
      */
     public void goToThirdQuestion(View view) {
-        setContentView(R.layout.question_three);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q2_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_three);
+                    break;
+                }
+            case R.id.q2_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
