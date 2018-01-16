@@ -29,4 +29,5 @@
     <string name="q8_ans2">Work online</string>
     <string name="next">Next question</string>
     <string name="finish">Let see results</string>
+    <string name="toast_no_name">Please provide your name!</string>
 </resources>

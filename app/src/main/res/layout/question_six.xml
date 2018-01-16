@@ -55,7 +55,7 @@
             android:layout_width="@dimen/imageTravel_width"
             android:layout_height="@dimen/imageTravel_height"
             android:scaleType="fitXY"
-            android:src="@drawable/Travel">
+            android:src="@drawable/travel">
 
         </ImageView>
 
