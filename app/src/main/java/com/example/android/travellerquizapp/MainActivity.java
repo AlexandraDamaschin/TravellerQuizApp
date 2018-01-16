@@ -4,6 +4,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,12 +35,27 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.question_one);
         }
     }
+
     /**
      * This method is called when the next question button is clicked.
      * Go to second question
      */
     public void goToSecondQuestion(View view) {
-        setContentView(R.layout.question_two);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q1_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_two);
+                    break;
+                }
+            case R.id.q1_ans2:
+                if (checked) {
+                    setContentView(R.layout.question_seven);
+                    break;
+                }
+        }
     }
 
     /**
@@ -46,7 +63,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to third question
      */
     public void goToThirdQuestion(View view) {
-        setContentView(R.layout.question_three);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q2_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_three);
+                    break;
+                }
+            case R.id.q2_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
@@ -54,7 +85,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to fourth question
      */
     public void goToFouthQuestion(View view) {
-        setContentView(R.layout.question_four);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q3_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_four);
+                    break;
+                }
+            case R.id.q3_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
@@ -62,7 +107,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to fifth question
      */
     public void goToFifthQuestion(View view) {
-        setContentView(R.layout.question_five);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q4_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_five);
+                    break;
+                }
+            case R.id.q4_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
@@ -70,7 +129,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to sixth question
      */
     public void goToSixthQuestion(View view) {
-        setContentView(R.layout.question_six);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q5_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_six);
+                    break;
+                }
+            case R.id.q5_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
@@ -78,7 +151,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to seven question
      */
     public void goToSevenQuestion(View view) {
-        setContentView(R.layout.question_seven);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q6_ans1:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+            case R.id.q6_ans2:
+                if (checked) {
+                    setContentView(R.layout.question_seven);
+                    break;
+                }
+        }
     }
 
     /**
@@ -86,7 +173,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to eight question
      */
     public void goToEightQuestion(View view) {
-        setContentView(R.layout.question_eight);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q7_ans1:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+            case R.id.q7_ans2:
+                if (checked) {
+                    setContentView(R.layout.question_eight);
+                    break;
+                }
+        }
     }
 
     /**
@@ -94,7 +195,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to resume and find out your type!
      */
     public void goToResume(View view) {
-        setContentView(R.layout.resume);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q8_ans1:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+            case R.id.q8_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
 }
