@@ -107,7 +107,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to fifth question
      */
     public void goToFifthQuestion(View view) {
-        setContentView(R.layout.question_five);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q4_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_five);
+                    break;
+                }
+            case R.id.q4_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
