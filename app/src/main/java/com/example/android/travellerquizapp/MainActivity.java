@@ -33,9 +33,68 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.question_one);
         }
     }
-
-
-    public void goToSecondQuestion() {
-
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to second question
+     */
+    public void goToSecondQuestion(View view) {
+        setContentView(R.layout.question_two);
     }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to third question
+     */
+    public void goToThirdQuestion(View view) {
+        setContentView(R.layout.question_three);
+    }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to fourth question
+     */
+    public void goToFouthQuestion(View view) {
+        setContentView(R.layout.question_four);
+    }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to fifth question
+     */
+    public void goToFifthQuestion(View view) {
+        setContentView(R.layout.question_five);
+    }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to sixth question
+     */
+    public void goToSixthQuestion(View view) {
+        setContentView(R.layout.question_six);
+    }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to seven question
+     */
+    public void goToSevenQuestion(View view) {
+        setContentView(R.layout.question_seven);
+    }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to eight question
+     */
+    public void goToEightQuestion(View view) {
+        setContentView(R.layout.question_eight);
+    }
+
+    /**
+     * This method is called when the next question button is clicked.
+     * Go to resume and find out your type!
+     */
+    public void goToResume(View view) {
+        setContentView(R.layout.resume);
+    }
+
 }
