@@ -195,7 +195,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to resume and find out your type!
      */
     public void goToResume(View view) {
-        setContentView(R.layout.resume);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q8_ans1:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+            case R.id.q8_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
 }
