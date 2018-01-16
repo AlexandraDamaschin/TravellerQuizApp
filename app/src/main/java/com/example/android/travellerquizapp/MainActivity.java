@@ -55,8 +55,8 @@ public class MainActivity extends AppCompatActivity {
                     setContentView(R.layout.question_seven);
                     break;
                 }
-            }
-         }
+        }
+    }
 
     /**
      * This method is called when the next question button is clicked.
@@ -85,7 +85,21 @@ public class MainActivity extends AppCompatActivity {
      * Go to fourth question
      */
     public void goToFouthQuestion(View view) {
-        setContentView(R.layout.question_four);
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+        // Check which radio button was clicked
+        switch (view.getId()) {
+            case R.id.q3_ans1:
+                if (checked) {
+                    setContentView(R.layout.question_four);
+                    break;
+                }
+            case R.id.q3_ans2:
+                if (checked) {
+                    setContentView(R.layout.resume);
+                    break;
+                }
+        }
     }
 
     /**
