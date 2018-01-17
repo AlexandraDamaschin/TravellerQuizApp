@@ -18,7 +18,6 @@
             android:layout_marginTop="@dimen/textView_margin"
             android:text="@string/congrats"
             android:textAlignment="center"
-            android:textColor="@color/textColor"
             android:textSize="@dimen/congrats_textSize" />
 
         <ImageView
@@ -35,7 +34,6 @@
             android:layout_height="wrap_content"
             android:text="@string/thanks"
             android:textAlignment="center"
-            android:textColor="@color/textColor"
             android:textSize="@dimen/thanks_textSize" />
 
         <Button

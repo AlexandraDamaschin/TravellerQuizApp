@@ -19,7 +19,6 @@
             android:layout_marginTop="@dimen/question_margin"
             android:text="@string/question_two"
             android:textAlignment="center"
-            android:textColor="@color/textColor"
             android:textSize="@dimen/question_textSize" />
 
         <RadioGroup
