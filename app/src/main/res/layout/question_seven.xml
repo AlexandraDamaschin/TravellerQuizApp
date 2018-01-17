@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q7_ans1"
-                android:onClick="goToEightQuestion"
+                android:onClick="goToResume"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
@@ -49,7 +49,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/nextButton_marginTop"
-            android:onClick="goToEightQuestion"
             android:text="@string/next" />
 
         <ImageView

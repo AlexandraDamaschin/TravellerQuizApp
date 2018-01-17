@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/q1_ans2"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="goToSecondQuestion"/>
+                android:onClick="goToSevenQuestion"/>
         </RadioGroup>
 
         <Button
@@ -49,7 +49,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/nextButton_marginTop"
-            android:onClick="goToSecondQuestion"
             android:text="@string/next" />
 
         <ImageView

@@ -49,7 +49,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/nextButton_marginTop"
-            android:onClick="goToResume"
             android:text="@string/finish" />
 
         <ImageView
