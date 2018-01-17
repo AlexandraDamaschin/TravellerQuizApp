@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             case R.id.q2_ans2:
                 if (checked) {
-                    setContentView(R.layout.resume);
+                    setContentView(R.layout.vacantioner);
                     break;
                 }
         }
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             case R.id.q3_ans2:
                 if (checked) {
-                    setContentView(R.layout.resume);
+                    setContentView(R.layout.vacantioner);
                     break;
                 }
         }
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             case R.id.q4_ans2:
                 if (checked) {
-                    setContentView(R.layout.resume);
+                    setContentView(R.layout.expat);
                     break;
                 }
         }
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             case R.id.q5_ans2:
                 if (checked) {
-                    setContentView(R.layout.resume);
+                    setContentView(R.layout.expat);
                     break;
                 }
         }
@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.q6_ans1:
                 if (checked) {
-                    setContentView(R.layout.resume);
+                    setContentView(R.layout.nomad);
                     break;
                 }
             case R.id.q6_ans2:
@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.q7_ans1:
                 if (checked) {
-                    setContentView(R.layout.resume);
+                    setContentView(R.layout.vacantioner);
                     break;
                 }
             case R.id.q7_ans2:
@@ -193,22 +193,36 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the next question button is clicked.
      * Go to resume and find out your type!
      */
-    public void goToResume(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
-        // Check which radio button was clicked
-        switch (view.getId()) {
-            case R.id.q8_ans1:
-                if (checked) {
-                    setContentView(R.layout.resume);
-                    break;
-                }
-            case R.id.q8_ans2:
-                if (checked) {
-                    setContentView(R.layout.resume);
-                    break;
-                }
-        }
+//    public void goToResume(View view) {
+//        // Is the button now checked?
+//        boolean checked = ((RadioButton) view).isChecked();
+//        // Check which radio button was clicked
+//        switch (view.getId()) {
+//            case R.id.q8_ans1:
+//                if (checked) {
+//                    setContentView(R.layout.expat);
+//                    break;
+//                }
+//            case R.id.q8_ans2:
+//                if (checked) {
+//                    setContentView(R.layout.nomad);
+//                    break;
+//                }
+//        }
+//    }
+
+    public void goToVacantioner(View view) {
+        setContentView(R.layout.vacantioner);
     }
+
+    public void goToExpat(View view) {
+        setContentView(R.layout.expat);
+    }
+
+    public void goToNomad(View view) {
+        setContentView(R.layout.nomad);
+    }
+
+
 
 }

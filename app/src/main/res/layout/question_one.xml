@@ -44,13 +44,6 @@
                 android:onClick="goToSevenQuestion"/>
         </RadioGroup>
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/nextButton_marginTop"
-            android:text="@string/next" />
-
         <ImageView
             android:id="@+id/photo_love_travel"
             android:layout_width="@dimen/imageTravel_width"

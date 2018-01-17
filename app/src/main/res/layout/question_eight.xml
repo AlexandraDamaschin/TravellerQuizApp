@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q8_ans1"
-                android:onClick="goToResume"
+                android:onClick="goToExpat"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
@@ -40,16 +40,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q8_ans2"
-                android:onClick="goToResume"
+                android:onClick="goToNomad"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/nextButton_marginTop"
-            android:text="@string/finish" />
 
         <ImageView
             android:id="@+id/photo_love_travel"

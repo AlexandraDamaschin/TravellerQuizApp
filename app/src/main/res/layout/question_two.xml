@@ -40,16 +40,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q2_ans2"
-                android:onClick="goToResume"
+                android:onClick="goToVacantioner"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/nextButton_marginTop"
-            android:text="@string/next" />
 
         <ImageView
             android:id="@+id/photo_love_travel"
