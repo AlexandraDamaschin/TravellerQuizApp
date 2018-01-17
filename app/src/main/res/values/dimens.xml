@@ -11,4 +11,9 @@
     <dimen name="nextButton_marginTop">40dp</dimen>
     <dimen name="imageTravel_width">300dp</dimen>
     <dimen name="imageTravel_height">150dp</dimen>
+    <dimen name="padding_linearLayoutF">16dp</dimen>
+    <dimen name="textView_margin">40dp</dimen>
+    <dimen name="congrats_textSize">46sp</dimen>
+    <dimen name="thanks_textSize">36sp</dimen>
+    <dimen name="tryAgain_textSize">20dp</dimen>
 </resources>

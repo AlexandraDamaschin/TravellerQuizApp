@@ -30,4 +30,7 @@
     <string name="next">Next question</string>
     <string name="finish">Let see results</string>
     <string name="toast_no_name">Please provide your name!</string>
+    <string name="congrats">Congratulations,</string>
+    <string name="thanks">Thank you for completing this quiz!</string>
+    <string name="tryAgain">Try again</string>
 </resources>
