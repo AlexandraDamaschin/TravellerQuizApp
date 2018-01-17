@@ -189,40 +189,24 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * This method is called when the next question button is clicked.
-     * Go to resume and find out your type!
-     */
-//    public void goToResume(View view) {
-//        // Is the button now checked?
-//        boolean checked = ((RadioButton) view).isChecked();
-//        // Check which radio button was clicked
-//        switch (view.getId()) {
-//            case R.id.q8_ans1:
-//                if (checked) {
-//                    setContentView(R.layout.expat);
-//                    break;
-//                }
-//            case R.id.q8_ans2:
-//                if (checked) {
-//                    setContentView(R.layout.nomad);
-//                    break;
-//                }
-//        }
-//    }
-
+//    finish as a vacantioner
     public void goToVacantioner(View view) {
         setContentView(R.layout.vacantioner);
     }
 
+//    finish as an expat
     public void goToExpat(View view) {
         setContentView(R.layout.expat);
     }
 
+//    finish as a nomad
     public void goToNomad(View view) {
         setContentView(R.layout.nomad);
     }
-
+// start again our quiz
+    public void startAgain (View view ){
+        setContentView(R.layout.activity_main);
+    }
 
 
 }
