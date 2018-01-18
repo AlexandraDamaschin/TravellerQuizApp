@@ -2,7 +2,7 @@ TravellerQuizApp
 
 Do you like to travel?
 Then you have to try my app!
-![alt text](https://github.com/AlexandraDamaschin/TravellerQuizApp/blob/master/start.png)
+![alt text](https://github.com/AlexandraDamaschin/TravellerQuizApp/blob/master/start.PNG)
 
 You can answer to some questions
 ![alt text](https://github.com/AlexandraDamaschin/TravellerQuizApp/blob/master/question.png)
