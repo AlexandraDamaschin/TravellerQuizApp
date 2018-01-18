@@ -16,4 +16,5 @@
     <dimen name="congrats_textSize">46sp</dimen>
     <dimen name="thanks_textSize">36sp</dimen>
     <dimen name="tryAgain_textSize">20dp</dimen>
+    <dimen name="startImage_marginTop">100dp</dimen>
 </resources>
