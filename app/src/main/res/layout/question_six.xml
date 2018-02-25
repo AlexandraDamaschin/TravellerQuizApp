@@ -30,16 +30,16 @@
                 android:id="@+id/q6_ans1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/q6_ans1"
                 android:onClick="goToNomad"
+                android:text="@string/q6_ans1"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/q6_ans2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/q6_ans2"
                 android:onClick="goToSevenQuestion"
+                android:text="@string/q6_ans2"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 

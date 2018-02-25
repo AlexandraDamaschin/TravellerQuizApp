@@ -45,5 +45,4 @@
             android:textSize="@dimen/tryAgain_textSize" />
 
     </LinearLayout>
-
 </ScrollView>

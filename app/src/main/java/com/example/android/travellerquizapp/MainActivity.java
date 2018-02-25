@@ -186,22 +186,23 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    finish as a vacantioner
+    //    finish as a vacantioner
     public void goToVacantioner(View view) {
         setContentView(R.layout.vacantioner);
     }
 
-//    finish as an expat
+    //    finish as an expat
     public void goToExpat(View view) {
         setContentView(R.layout.expat);
     }
 
-//    finish as a nomad
+    //    finish as a nomad
     public void goToNomad(View view) {
         setContentView(R.layout.nomad);
     }
-// start again our quiz
-    public void startAgain (View view ){
+
+    // start again our quiz
+    public void startAgain(View view) {
         setContentView(R.layout.activity_main);
     }
 
