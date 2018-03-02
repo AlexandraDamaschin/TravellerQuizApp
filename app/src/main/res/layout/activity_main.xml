@@ -21,6 +21,12 @@
                 android:hint="@string/customerName"
                 android:inputType="textMultiLine" />
 
+            <CheckBox
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/over_14"
+                android:textAppearance="?android:textAppearanceLarge" />
         </LinearLayout>
 
 

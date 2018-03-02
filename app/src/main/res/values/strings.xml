@@ -33,4 +33,5 @@
     <string name="congrats">Congratulations,</string>
     <string name="thanks">Thank you for completing this quiz!</string>
     <string name="tryAgain">Try again</string>
+    <string name="over_14">Are you over 14?</string>
 </resources>
