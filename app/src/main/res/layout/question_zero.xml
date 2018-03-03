@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.travellerquizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding">
+
+        <TextView
+            android:id="@+id/question_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/question_margin"
+            android:layout_marginTop="@dimen/question_margin"
+            android:text="@string/preferences"
+            android:textAlignment="center"
+            android:textSize="@dimen/question_textSize" />
+
+        <CheckBox
+            android:id="@+id/sea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sea"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <CheckBox
+            android:id="@+id/mountain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mountain"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <CheckBox
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/photo_love_travel"
+            android:layout_width="@dimen/imageTravel_width"
+            android:layout_height="@dimen/imageTravel_height"
+            android:scaleType="fitXY"
+            android:src="@drawable/travel">
+
+        </ImageView>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="90"
+            android:progress="5" />
+
+    </LinearLayout>
+
+</ScrollView>
