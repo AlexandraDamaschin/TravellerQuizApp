@@ -38,4 +38,5 @@
     <string name="sea">A day at the ocean breeze</string>
     <string name="mountain">A refreshing day at the top of the mountain</string>
     <string name="city">A busy day in the city</string>
+    <string name="toast_checked">Please check at least one option.</string>
 </resources>

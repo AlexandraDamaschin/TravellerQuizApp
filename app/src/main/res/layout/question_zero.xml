@@ -25,7 +25,7 @@
             android:id="@+id/sea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="goToSecondQuestion"
+            android:onClick="onCheckboxClicked"
             android:text="@string/sea"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -33,7 +33,7 @@
             android:id="@+id/mountain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="goToSecondQuestion"
+            android:onClick="onCheckboxClicked"
             android:text="@string/mountain"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -41,7 +41,7 @@
             android:id="@+id/city"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="goToSecondQuestion"
+            android:onClick="onCheckboxClicked"
             android:text="@string/city"
             android:textAppearance="?android:textAppearanceMedium" />
 

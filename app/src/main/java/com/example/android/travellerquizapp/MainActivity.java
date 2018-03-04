@@ -3,6 +3,7 @@ package com.example.android.travellerquizapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -15,6 +16,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
+
+    //    question zero
+    public void onCheckboxClicked(View view) {
+        // Is the view now checked?
+        boolean checked = ((CheckBox) view).isChecked();
+
+        // Check which checkbox was clicked
+        switch (view.getId()) {
+            //if sea case
+            case R.id.sea:
+                if (checked)
+                    setContentView(R.layout.question_two);
+                else
+                    Toast.makeText(this, getString(R.string.toast_checked), Toast.LENGTH_SHORT).show();
+            //if mountain case
+            case R.id.mountain:
+                if (checked)
+                    setContentView(R.layout.question_two);
+                else
+                    Toast.makeText(this, getString(R.string.toast_checked), Toast.LENGTH_SHORT).show();
+            //if city case
+            case R.id.city:
+                if (checked)
+                    setContentView(R.layout.question_two);
+                else
+                    Toast.makeText(this, getString(R.string.toast_checked), Toast.LENGTH_SHORT).show();
+                break;
+            // TODO: Veggie sandwich
+        }
     }
 
     /**
