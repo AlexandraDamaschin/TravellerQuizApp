@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, getString(R.string.toast_no_name), Toast.LENGTH_SHORT).show();
             return;
         } else {
-            setContentView(R.layout.question_one);
+            setContentView(R.layout.question_zero);
         }
     }
 
