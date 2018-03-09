@@ -28,19 +28,19 @@ public class MainActivity extends AppCompatActivity {
         // Check which checkbox was clicked
         switch (view.getId()) {
             //if sea case
-            case R.id.sea | R.id.mountain:
+            case R.id.sea:
                 if (checked)
                     setContentView(R.layout.question_one);
                 else
                     Toast.makeText(this, getString(R.string.toast_checked), Toast.LENGTH_SHORT).show();
                 //if mountain case
-            case R.id.mountain | R.id.city:
+            case R.id.mountain:
                 if (checked)
                     setContentView(R.layout.question_one);
                 else
                     Toast.makeText(this, getString(R.string.toast_checked), Toast.LENGTH_SHORT).show();
                 //if city case
-            case R.id.city | R.id.sea:
+            case R.id.city:
                 if (checked)
                     setContentView(R.layout.question_one);
                 else
