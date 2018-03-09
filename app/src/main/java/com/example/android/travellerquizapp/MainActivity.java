@@ -18,12 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //    question zero
+    //    checkbox with multiple choices for your type of travel
     public void onCheckboxClicked(View view) {
         // Is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
-
-//        here is supose user to be able to chose multiple
 
         // Check which checkbox was clicked
         switch (view.getId()) {
