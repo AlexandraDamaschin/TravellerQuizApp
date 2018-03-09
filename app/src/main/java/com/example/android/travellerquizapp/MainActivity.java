@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         // Is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
 
+//        here is supose user to be able to chose multiple
+
         // Check which checkbox was clicked
         switch (view.getId()) {
             //if sea case
