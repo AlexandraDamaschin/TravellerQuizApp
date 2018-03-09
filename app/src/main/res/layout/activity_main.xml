@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/progressBar_margin"
             android:indeterminate="false"
-            android:max="90"
+            android:max="100"
             android:progress="5" />
 
     </RelativeLayout>
